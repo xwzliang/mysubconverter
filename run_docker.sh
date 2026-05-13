@@ -1,1 +1,1 @@
-docker run -d --restart=always -v /etc/openclash/config:/data -p 15051:25500 --name subconverter xwzliang/subconverter-custom:0.0.1
+docker run -d --restart=always -v /etc/openclash/config:/data -p 15051:25500 --name subconverter xwzliang/subconverter-custom:0.0.2
