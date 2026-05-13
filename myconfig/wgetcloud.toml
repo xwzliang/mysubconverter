@@ -2,16 +2,16 @@
 name = "loadbalance"
 type = "load-balance"
 rule = [
-  "[]🇸🇬 新加坡 01",
-  "[]🇸🇬 新加坡 02",
-  "[]🇸🇬 新加坡 03",
-  "[]🇮🇩 印尼 01",
-  "[]🇹🇷 土耳其 01",
-  "[]🇩🇪 德国 01",
-  "[]🇦🇺 澳大利亚 01",
-  "[]🇵🇭 菲律宾 01",
-  "[]🇷🇺 俄罗斯 01",
-  "[]🇰🇷 韩国 01"
+  "[]新加坡 01",
+  "[]新加坡 02",
+  "[]新加坡 03",
+  "[]印尼 01",
+  "[]土耳其 01",
+  "[]德国 01",
+  "[]澳大利亚 01",
+  "[]菲律宾 01",
+  "[]俄罗斯 01",
+  "[]韩国 01"
 ]
 url = "http://cp.cloudflare.com/generate_204"
 interval = 300
@@ -23,9 +23,9 @@ disable_udp = false
 name = "美国"
 type = "url-test"
 rule = [
-  "[]🇺🇲 美国 01",
-  "[]🇺🇲 美国 02",
-  "[]🇺🇲 美国 03"
+  "[]美国 01",
+  "[]美国 02",
+  "[]美国 03"
 ]
 url = "https://cp.cloudflare.com/generate_204"
 interval = 300
@@ -37,9 +37,9 @@ disable_udp = false
 name = "日本"
 type = "url-test"
 rule = [
-  "[]🇯🇵 日本 01",
-  "[]🇯🇵 日本 02",
-  "[]🇯🇵 日本 03"
+  "[]日本 01",
+  "[]日本 02",
+  "[]日本 03"
 ]
 url = "http://cp.cloudflare.com/generate_204"
 interval = 300

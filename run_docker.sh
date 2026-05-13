@@ -1,0 +1,1 @@
+docker run -d --restart=always -p 15051:25500 asdlokj1qpi23/subconverter:latest
