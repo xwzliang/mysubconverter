@@ -1,1 +1,1 @@
-docker run -d --restart=always -p 15051:25500 asdlokj1qpi23/subconverter:latest
+docker run -d --restart=always -v /etc/openclash/config:/data -p 15051:25500 xwzliang/subconverter-custom:0.0.1
